@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "code": "console.log(2 + 2 + '5');",
+      "options": [
+        "45",
+        "9",
+        "4",
+        "22"
+      ],
+      "answer": "22"
+    },
+    {
+      "code": "typeof(null);",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "answer": "'object'"
+    },
+    {
+      "code": "let x = 5;\nconsole.log(x++);",
+      "options": [
+        "5",
+        "6",
+        "undefined",
+        "NaN"
+      ],
+      "answer": "5"
+    },
+    {
+      "code": "let arr = [1, 2, 3];\nconsole.log(arr.length);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "code": "parseInt('2.5');",
+      "options": [
+        "2",
+        "2.5",
+        "'2.5'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "code": "let x = 10;\nlet y = '5';\nconsole.log(x / y);",
+      "options": [
+        "2",
+        "5",
+        "'2'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "code": "isNaN('hello');",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "ReferenceError"
+      ],
+      "answer": "true"
+    },
+    {
+      "code": "let x = 5;\nconsole.log(x != '5');",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "ReferenceError"
+      ],
+      "answer": "false"
+    },
+    {
+      "code": "let x = '5';\nconsole.log(++x);",
+      "options": [
+        "5",
+        "6",
+        "'6'",
+        "NaN"
+      ],
+      "answer": "6"
+    },
+    {
+      "code": "let arr = [1, 2, 3];\nconsole.log(arr.pop());",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "undefined"
+      ],
+      "answer": "3"
+    }
+  ]
+}
+

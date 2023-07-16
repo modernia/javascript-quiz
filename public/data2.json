@@ -1,0 +1,209 @@
+{
+  "questions": 
+  [
+    {
+      "id": 1,
+      "text": "What will be logged to the console when the following code is executed?",
+      "code": "const a = 1;\nconst b = 2;\nconsole.log(a + b);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 2,
+      "text": "What is the length of the following array?",
+      "code": "const arr = [1, 2, 3];\nconsole.log(arr.length);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 3,
+      "text": "What is the value of `x` after the following code is executed?",
+      "code": "let x = 5;\nconsole.log(x++);",
+      "options": [
+        "5",
+        "6",
+        "undefined",
+        "NaN"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 4,
+      "text": "What is the result of the following expression?",
+      "code": "typeof(null);",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "answer": "'object'"
+    },
+    {
+      "id": 5,
+      "text": "What is the length of the following array after the `pop()` method is called?",
+      "code": "let arr = [1, 2, 3];\narr.pop();\nconsole.log(arr.length);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 6,
+      "text": "What is the result of the following expression?",
+      "code": "parseInt('2.5');",
+      "options": [
+        "2",
+        "2.5",
+        "'2.5'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 7,
+      "text": "What is the result of the following expression?",
+      "code": "let x = 10;\nlet y = '5';\nconsole.log(x / y);",
+      "options": [
+        "2",
+        "5",
+        "'2'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 8,
+      "text": "What is the result of the following expression?",
+      "code": "isNaN('hello');",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "ReferenceError"
+      ],
+      "answer": "true"
+    },
+    {
+      "id": 9,
+      "text": "What is the output of the following code snippet?",
+      "code": "console.log(2 + 2 + '5');",
+      "options": [
+        "45",
+        "9",
+        "4",
+        "22"
+      ],
+      "answer": "22"
+    },
+    {
+      "id": 10,
+      "text": "What is the result of calling `typeof` on `null`?",
+      "code": "typeof(null);",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'number'"
+      ],
+      "answer": "'object'"
+    },
+    {
+      "id": 11,
+      "text": "What is the output of the following code snippet?",
+      "code": "let x = 5;\nconsole.log(x++);",
+      "options": [
+        "5",
+        "6",
+        "undefined",
+        "NaN"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": 12,
+      "text": "What is the length of the array `[1, 2, 3]`?",
+      "code": "let arr = [1, 2, 3];\nconsole.log(arr.length);",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 13,
+      "text": "What is the result of calling `parseInt('2.5')`?",
+      "code": "parseInt('2.5');",
+      "options": [
+        "2",
+        "2.5",
+        "'2.5'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 14,
+      "text": "What is the result of `10 / '5'`?",
+      "code": "let x = 10;\nlet y = '5';\nconsole.log(x / y);",
+      "options": [
+        "2",
+        "5",
+        "'2'",
+        "NaN"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": 15,
+      "text": "What is the result of calling `isNaN('hello')`?",
+      "code": "isNaN('hello');",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "ReferenceError"
+      ],
+      "answer": "true"
+    },
+    {
+      "id": 16,
+      "text": "What is the result of `5 != '5'`?",
+      "code": "let x = 5;\nconsole.log(x != '5');",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "ReferenceError"
+      ],
+      "answer": "false"
+    },
+    {
+      "id": 17,
+      "text": "What is the result of `++'5'`?",
+      "code": "let x = '5';\nconsole.log(++x);",
+      "options": [
+        "5",
+        "6",
+        "'6'",
+        "NaN"
+      ],
+      "answer": "6"
+    }
+  ]
+}
