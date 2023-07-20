@@ -204,6 +204,230 @@
         "NaN"
       ],
       "answer": "6"
+    },
+    {
+      "id": 21,
+      "text": "What will be logged to the console when the following code is executed?",
+      "code": "const a = 5;\nconst b = \"2\";\nconsole.log(a + b);",
+      "options": [
+        "a) 7",
+        "b) 52",
+        "c) 5",
+        "d) \"52\""
+      ],
+      "answer": "b) 52"
+    },
+    {
+      "id": 22,
+      "text": "Which of the following methods converts a string to lowercase in JavaScript?",
+      "options": [
+        "a) toLowerCase()",
+        "b) toLower()",
+        "c) lowerCase()",
+        "d) stringToLower()"
+      ],
+      "answer": "a) toLowerCase()"
+    },
+    {
+      "id": 23,
+      "text": "What is the correct way to declare an array in JavaScript?",
+      "options": [
+        "a) const arr = [1, 2, 3];",
+        "b) const arr = {1, 2, 3};",
+        "c) const arr = (1, 2, 3);",
+        "d) const arr = array(1, 2, 3);"
+      ],
+      "answer": "a) const arr = [1, 2, 3];"
+    },
+    {
+      "id": 24,
+      "text": "Which function is used to add an element to the end of an array in JavaScript?",
+      "options": [
+        "a) add()",
+        "b) push()",
+        "c) append()",
+        "d) insert()"
+      ],
+      "answer": "b) push()"
+    },
+    {
+      "id": 25,
+      "text": "What is the result of the following expression?",
+      "code": "5 + \"5\"",
+      "options": [
+        "a) 10",
+        "b) 55",
+        "c) \"10\"",
+        "d) \"55\""
+      ],
+      "answer": "d) \"55\""
+    },
+    {
+      "id": 26,
+      "text": "Which of the following statements about variables in JavaScript is correct?",
+      "options": [
+        "a) Variables in JavaScript cannot change their value after declaration.",
+        "b) Variables in JavaScript must be declared using the 'let' keyword.",
+        "c) Variables in JavaScript must always be initialized when declared.",
+        "d) Variables in JavaScript are not case-sensitive."
+      ],
+      "answer": "c) Variables in JavaScript must always be initialized when declared."
+    },
+    {
+      "id": 27,
+      "text": "What is the correct way to comment a single line of code in JavaScript?",
+      "options": [
+        "a) /* comment */",
+        "b) // comment",
+        "c) <!-- comment -->",
+        "d) **comment**"
+      ],
+      "answer": "b) // comment"
+    },
+    {
+      "id": 28,
+      "text": "Which method is used to get the length of a string in JavaScript?",
+      "options": [
+        "a) len()",
+        "b) length()",
+        "c) size()",
+        "d) count()"
+      ],
+      "answer": "b) length()"
+    },
+    {
+      "id": 29,
+      "text": "Which of the following is a loop in JavaScript that executes the code at least once and then checks the condition?",
+      "options": [
+        "a) while loop",
+        "b) do-while loop",
+        "c) for loop",
+        "d) if statement"
+      ],
+      "answer": "b) do-while loop"
+    },
+    {
+      "id": 30,
+      "text": "What is the strict equality operator in JavaScript?",
+      "options": [
+        "a) ==",
+        "b) ===",
+        "c) =",
+        "d) !="
+      ],
+      "answer": "b) ==="
+    },
+    {
+      "id": 31,
+      "text": "Which method is used to remove the last element from an array in JavaScript?",
+      "options": [
+        "a) remove()",
+        "b) pop()",
+        "c) delete()",
+        "d) shift()"
+      ],
+      "answer": "b) pop()"
+    },
+    {
+      "id": 32,
+      "text": "What is the result of the following expression?",
+      "code": "10 % 3",
+      "options": [
+        "a) 1",
+        "b) 3",
+        "c) 0.333",
+        "d) 0"
+      ],
+      "answer": "a) 1"
+    },
+    {
+      "id": 33,
+      "text": "Which event is triggered when a user clicks on an HTML element?",
+      "options": [
+        "a) mouseover",
+        "b) click",
+        "c) change",
+        "d) keypress"
+      ],
+      "answer": "b) click"
+    },
+    {
+      "id": 34,
+      "text": "Which method is used to find the index of the first occurrence of an element in an array in JavaScript?",
+      "options": [
+        "a) findIndex()",
+        "b) indexOf()",
+        "c) getIndex()",
+        "d) search()"
+      ],
+      "answer": "b) indexOf()"
+    },
+    {
+      "id": 35,
+      "text": "What data type does \"null\" represent in JavaScript?",
+      "options": [
+        "a) A null number",
+        "b) A null boolean",
+        "c) A null object",
+        "d) A null string"
+      ],
+      "answer": "c) A null object"
+    },
+    {
+      "id": 36,
+      "text": "What is the result of the following expression?",
+      "code": "2 ** 3",
+      "options": [
+        "a) 6",
+        "b) 8",
+        "c) 23",
+        "d) 2"
+      ],
+      "answer": "b) 8"
+    },
+    {
+      "id": 37,
+      "text": "Which method is used to convert a string to an integer in JavaScript?",
+      "options": [
+        "a) toNumber()",
+        "b) parseInt()",
+        "c) convertInt()",
+        "d) numberify()"
+      ],
+      "answer": "b) parseInt()"
+    },
+    {
+      "id": 38,
+      "text": "What is the result of the following expression?",
+      "code": "Boolean(\"0\")",
+      "options": [
+        "a) true",
+        "b) false"
+      ],
+      "answer": "b) false"
+    },
+    {
+      "id": 39,
+      "text": "Which method is used to concatenate two arrays in JavaScript?",
+      "options": [
+        "a) concat()",
+        "b) merge()",
+        "c) combine()",
+        "d) push()"
+      ],
+      "answer": "a) concat()"
+    },
+    {
+      "id": 40,
+      "text": "What is the purpose of the 'typeof' operator in JavaScript?",
+      "options": [
+        "a) Check if a value is null.",
+        "b) Determine the data type of a value.",
+        "c) Check if a variable is defined.",
+        "d) Perform a strict comparison between two values."
+      ],
+      "answer": "b) Determine the data type of a value."
     }
+    
   ]
 }
