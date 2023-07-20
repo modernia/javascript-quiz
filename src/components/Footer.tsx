@@ -9,7 +9,7 @@ export default function Footer () {
   return (
     <footer style={{ marginTop: '20px' }}>
       <Stack direction='column' spacing={2}>
-      <strong>{`✅ ${correct} correctas - ❌ ${incorrect} incorrectas - ❔ ${unanswered} sin responser`}</strong>
+      <strong>{`✅ ${correct} correctas - ❌ ${incorrect} incorrectas - ❔ ${unanswered} sin responder`}</strong>
       <Button onClick={reset}>
         Reiniciar
       </Button>

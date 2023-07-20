@@ -17,7 +17,7 @@ export const useQuestionsStore = create<State>((set, get) => ({
   fetchQuestions: async (limit?: number) => {
     const response = await fetch('http://localhost:5173/data2.json')
     const data = await response.json()
-    const questions = data.questions.sort(() => Math.random() - 0.5).slice(0, limit ?? 5)
+    const questions = data.questions.sort(() => Math.random() - 0.5).slice(0, limit ?? 10)
     set({ questions })
   },
   selectAnswer: (questionId, awnserIndex) => {
