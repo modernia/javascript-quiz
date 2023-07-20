@@ -32,9 +32,13 @@ const Question = ({ info }: { info: QuestionType }) => {
       <Typography variant='h5' >
         {info.text}
       </Typography>
-      <SyntaxHighlighter language='javascript' style={darcula}>
-        {info.code}
-      </SyntaxHighlighter>
+      {
+        info.code && (
+          <SyntaxHighlighter language='javascript' style={darcula}>
+          {info.code}
+        </SyntaxHighlighter>
+        )
+      }
       <List sx={{ bgcolor: '#333' }} disablePadding>
       {info.options.map((answer, index) => (
         <ListItem key={index} disablePadding divider>
