@@ -14,4 +14,4 @@ yarn dev
 ```
 
 ### Screenshots
-[Quiz game](./src/assets/image1.png)
+[./src/assets/image1.png] (Quiz game)
